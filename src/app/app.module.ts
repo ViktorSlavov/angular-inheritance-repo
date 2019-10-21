@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BaseDirective } from './base/base.component';
+import { ChildComponent } from './child/child.component';
+import { GrandChildComponent } from './grand-child/grand-child.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BaseDirective,
+    ChildComponent,
+    GrandChildComponent
   ],
   imports: [
     BrowserModule,
